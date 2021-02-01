@@ -38,7 +38,7 @@ ______________________________________
 ```
 Method: POST
 URL: /sns/sms/subscribe
-Body: { phone } // 9774998*** fromat
+Body: { phone } // +639774998*** fromat
 Response: { 
 	success: true || false,
         code: 200 || any status code 
@@ -52,7 +52,7 @@ Response: {
 ```
 Method: POST
 URL: /sns/sms/send
-Body: { phone } // 9774998*** fromat
+Body: { phone } // +639774998*** fromat
 Response: { 
 	success: true || false,
         code: 200 || any status code 

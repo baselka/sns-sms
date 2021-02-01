@@ -4,7 +4,7 @@ exports.send = (phone, result) => {
 
     
 
-    const mobileNo = `+63${phone}`
+    const mobileNo = `${phone}`
     const OTP = util.randomOTP(1000, 9999)
 
     const params = {
@@ -33,7 +33,7 @@ exports.subscribe = (phone, result) => {
 
     
 
-    const mobileNo = `+63${phone}`
+    const mobileNo = `${phone}`
 
     const params = {
         Protocol: 'SMS',
