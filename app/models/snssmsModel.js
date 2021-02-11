@@ -8,7 +8,7 @@ exports.send = (phone, result) => {
     const OTP = util.randomOTP(1000, 9999)
 
     const params = {
-        Message: `Welcome! your mobile verification code is:  ${OTP} Mobile Number is: ${mobileNo}`, /* required */
+        Message: `Welcome! your mobile verification code is:  ${OTP}`, /* required */
         PhoneNumber: mobileNo,
     }
 
